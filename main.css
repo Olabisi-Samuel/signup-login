@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 30px auto;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 650px;
+  width: 25%;
+}
+
+h1 {
+  margin: 15px 20px 0px 20px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+form {
+  margin: 30px;
+  gap: 20px;
+}
+
+/* .form-container {
+  padding: 20px 0px 40px 0px;
+} */
+
+input,
+label {
+  display: block;
+}
+
+input {
+  width: 250px;
+  padding: 8px;
+  /* margin: 0px, 0px, 30px, 0px; */
+  margin-top: 2px;
+  border: 0.0652px solid;
+  border-radius: 2px;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.pass.note {
+  font-size: 15px;
+}
+
+.btn {
+  padding: 8px;
+  width: 275px;
+  margin: 0px 0% 0px 8%;
+  background-color: #f3d27e;
+  color: black;
+  border: 0.0652px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.note {
+  padding-top: 22px;
+  margin: 0px 30px;
+}
+
+p,
+a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.foot-note {
+  width: 100%;
+  height: 7%;
+  padding-top: 30px;
+  margin: 2px 0px;
+  background-color: hsla(0, 0%, 95%, 0.4);
+}
+
+.foot-note p {
+  margin: 0px 30px;
+  font-size: 14px;
+}
+
+.error {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+.name-error,
+.email-error,
+.pass-error {
+  padding-top: 5px;
+  color: red;
+}

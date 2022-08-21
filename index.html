@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <h1>Create account</h1>
+        <form action="">
+          <label for="">Your name</label>
+          <input
+            type="text"
+            placeholder="First and last name"
+            id="name-input"
+          />
+          <p class="name-error"></p>
+          <label for="">Mobile number or email</label>
+          <input type="email" id="email-input" />
+          <p class="email-error"></p>
+          <label for="">Password</label>
+          <input
+            type="password"
+            placeholder="At least six characters"
+            id="pass-input1"
+          />
+          <p class="pass-note">Passwords must be at least 6 characters</p>
+          <p class="pass-error"></p>
+          <label for="">Re-enter password</label>
+          <input type="password" id="pass-input2" />
+          <p class="pass-error"></p>
+        </form>
+        <button on class="btn">Continue</button>
+      </div>
+      <div class="note">
+        <p>
+          By creating an account you agree to Amazon's
+          <a href="#">Conditions of Use & Sale</a>. Please see our
+          <a href="#">Privacy Notice</a>, our <a href="#">Cookies Notice</a> and
+          our <a href="#">Interest-Based Ads Notice</a>.
+        </p>
+      </div>
+      <div class="foot-note">
+        <p>Already have an account? <a href="#">Sign in</a></p>
+        <p>Buying for work? <a href="#">Create a free business account</a></p>
+      </div>
+    </div>
+
+    <script src="file.js"></script>
+  </body>
+</html>
